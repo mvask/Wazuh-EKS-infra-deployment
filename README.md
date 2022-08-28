@@ -2,7 +2,7 @@
 
 By Matheus Aguiar
 
-Diagrams aunder ./doc
+Diagrams under ./doc
 
 # Introduction
 
