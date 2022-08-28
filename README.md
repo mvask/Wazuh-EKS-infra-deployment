@@ -2,7 +2,7 @@
 
 By Matheus Aguiar
 
-Diagrams aunder ./doc
+Diagrams under ./doc
 
 # Introduction
 
@@ -117,7 +117,7 @@ The credentials are stored in the kubernetes secrets.
 
   
 
-Provisions base images to be used in Toptal's infra with ssh keys, base packages, log rotations rules, security configurations and wazuh agent playbook.
+Provisions base images to be used in the infra with ssh keys, base packages, log rotations rules, security configurations and wazuh agent playbook.
 
   
 
@@ -163,17 +163,17 @@ packer --version
 
   
 
-Before continuing, please fill the region, version, and address under `./ami/packer/ansible/group_vars/toptal_linux_vm/vars.yml`
+Before continuing, please fill the region, version, and address under `./ami/packer/ansible/group_vars/linux_vm/vars.yml`
 
 and profile, region, vpc_id, subnet_id and security_group_id
 
-`./ami/packer/aws/toptal-linux-vm.json`
+`./ami/packer/aws/linux-vm.json`
 
   
 
 ```bash
 
-packer build aws/toptal-linux-vm.json
+packer build aws/linux-vm.json
 
 ```
 
